@@ -8,7 +8,7 @@ usb virtual printer <br>
  {"现" + "价"} 等等   <br>
 		
 ### 1.2匹配规则  <br>
-		Iterm = { A + 数字字符开始 + 数字字符结尾}  <br>
+Iterm = { A + 数字字符开始 + 数字字符结尾}  <br>
 	
 	
 ## 2 Loading MatchingIterm  <br> <br>
@@ -33,7 +33,7 @@ usb virtual printer <br>
 ##  略过设置   <br>
    如果不设置的话，用四个英文空格(hex = 0x20)代替  <br>
 ##  一个Pakage总共34个字节   <br>
-    一个中文字符占两个英文字符空间  <br>
+   一个中文字符占两个英文字符空间 
 		
 	
 	
