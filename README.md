@@ -28,7 +28,7 @@ usb virtual printer
 暂定五分钟
 
 ##  清除设置
-    **{{{XXXX}{XXXX}{XXXX}{现在}{总额}}}**  
+{{{XXXX}{XXXX}{XXXX}{现在}{总额}}}
     想删除所有设置用大写 XXXX代替
 ##  略过设置  
     如果不设置的话，用四个英文空格(hex = 0x20)代替
