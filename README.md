@@ -35,7 +35,7 @@ Iterm = { A + 数字字符开始 + 数字字符结尾}  <br>
 ##  一个Pakage总共34个字节   <br>
    一个中文字符占两个英文字符空间   <br>
 #  2 升级工具UpDateTool 的使用   <br>
-[PC端软件工具件下载](https://raw.githubusercontent.com/koing2010/GD_protocol/master/UpDateTool/BootToolrelease20191119-0.zip) <br>
+[PC端软件工具件下载](https://github.com/koing2010/GD_protocol/blob/master/UpDateTool/BootToolrelease20191119-0.zip) <br>
 ##  软件使用  <br>
 解压上面的软件工具,打开 GWUpdateToo.exe <br>
 ### 1.选择升级文件 如 XXXX.bin  <br>
