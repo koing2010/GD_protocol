@@ -14,7 +14,8 @@ Iterm = { A + 数字字符开始 + 数字字符结尾}  <br>
 ## 2 Loading MatchingIterm  <br> <br>
  
 ###	 2.1 format: <br>
-{{{现金}{现价}{总额}{合计}{总价}}}  <br> <br>
+版本GW2中更改为7个项设置，后面两个为usb VID PID设置项，后面出**GW1的程序时也按此格式执行** <br>
+{{{现金}{现价}{总额}{合计}{总价}{6868}{0200}}}  <br> <br>
 ###	  以两个左大括号 '{{'开始，两个右 '}}'  结束      <br>
 大括号字符不是常打印字符，容易检索  <br> <br>
 ###	  目前先固定两个汉字  <br>
@@ -26,14 +27,19 @@ Iterm = { A + 数字字符开始 + 数字字符结尾}  <br>
 	
 ## 设置功能只在上电前五分钟有效  <br> 
 暂定五分钟 <br> <br>
-
 ##  清除设置 <br>
-{{{XXXX}{XXXX}{XXXX}{现在}{总额}}}   <br>
+GW2中将设置格式更新为7个Iterm <br>
+{{{XXXX}{XXXX}{XXXX}{现在}{总额}{XXXX}{XXXX}}}   <br>
     想删除所有设置用大写 XXXX代替  <br>
 ##  略过设置   <br>
    如果不设置的话，用四个英文空格(hex = 0x20)代替  <br>
-##  一个Pakage总共34个字节   <br>
-   一个中文字符占两个英文字符空间   <br>
+##  一个Pakage总46个字节   <br>
+   一个中文字符占两个英文字符空间，较之前增加VID PID 设置   <br>
+##  USB PID VID设置 <br>
+默认是 佳博 VID= 0x6868, PID = 0x0200 <br>
+不修改设置关键字时用空格代替 <br>
+设置时直接填写字符即可, **有ABCDEF时必须是大写** <br>
+前面一个项是 VID, 后一个项是 PID <br>
 #  2 升级工具UpDateTool 的使用   <br>
 [PC端软件工具件下载](https://github.com/koing2010/GD_protocol/blob/master/UpDateTool/BootToolrelease20191119-0.zip) <br>
 ##  软件使用  <br>
